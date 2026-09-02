@@ -16,7 +16,7 @@ export const experience = [
   },
   {
     company: 'Gongonet IT Solutions',
-    role: 'IT Technician / Technical Support',
+    role: 'Information Technology Intern',
     dates: '',
     location: 'Durban, South Africa',
     description:
