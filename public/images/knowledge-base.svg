@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#F1F0EC"/>
+  <rect x="0.5" y="0.5" width="639" height="399" fill="none" stroke="#E3E1DB"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="18" fill="#9A9C9F">knowledge-base</text>
+</svg>
