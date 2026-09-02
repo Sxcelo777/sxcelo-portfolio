@@ -30,7 +30,7 @@ export const experience = [
   },
   {
     company: 'Gugu WiFi',
-    role: 'Software Engineer / Technical Support',
+    role: 'Software Developer Intern',
     dates: '',
     location: '',
     description:
@@ -44,7 +44,7 @@ export const experience = [
   },
   {
     company: 'CCI',
-    role: 'Customer Support / Technical Support',
+    role: 'Email and Chat Support Specialist',
     dates: '',
     location: '',
     description:
@@ -67,7 +67,7 @@ export const experience = [
       'Responded to customer email queries within SLA targets',
       'Maintained accurate records of issues and resolutions',
     ],
-    technologies: ['Zoho Desk', 'Customer Support'],
+    technologies: ['Zoho Desk', 'Customer Support', 'Okta'],
   },
   {
     company: 'Edupower Skills Academy',
