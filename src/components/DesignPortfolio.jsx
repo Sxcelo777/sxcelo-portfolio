@@ -1,5 +1,6 @@
 import { designs } from '../data/designs'
 import './DesignPortfolio.css'
+import { asset } from '../utils'
 
 export default function DesignPortfolio() {
   return (
@@ -17,7 +18,7 @@ export default function DesignPortfolio() {
         <div className="design-grid">
           {designs.map((d) => (
             <figure className="design-item" key={d.id}>
-              <img src={d.image} alt={d.title} loading="lazy" />
+              <img src={asset(d.image)} alt={d.title} loading="lazy" />
               <figcaption>
                 <span className="design-title">{d.title}</span>
                 <span className="design-category">{d.category}</span>

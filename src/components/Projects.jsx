@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { FiExternalLink, FiGithub } from 'react-icons/fi'
 import { projects } from '../data/projects'
 import './Projects.css'
+import { asset } from '../utils'
 
 export default function Projects() {
   const [activeId, setActiveId] = useState(projects[0]?.id)
@@ -33,7 +34,7 @@ export default function Projects() {
         {active && (
           <div className="project-panel">
             <div className="project-media">
-              <img src={active.image} alt={`Screenshot of ${active.name}`} loading="lazy" />
+              <img src={asset(active.image)} alt={`Screenshot of ${active.name}`} loading="lazy" />
             </div>
 
             <div className="project-info">

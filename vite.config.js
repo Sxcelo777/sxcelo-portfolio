@@ -7,5 +7,5 @@ export default defineConfig({
   // IMPORTANT for GitHub Pages: set this to '/<your-repo-name>/'
   // e.g. if your repo is github.com/you/portfolio, use '/portfolio/'.
   // If deploying to a <username>.github.io repo or a custom domain, use '/'.
-  base: '/portfolio/',
+  base: '/sxcelo-portfolio/',
 })
