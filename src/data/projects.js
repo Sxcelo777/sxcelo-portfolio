@@ -8,7 +8,7 @@ export const projects = [
     description:
       'An educational mathematics Snake game built with React. Players steer the snake while answering arithmetic, algebra, calculus, statistics and probability questions, earning or losing points based on their answers.',
     technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
-    image: 'public/images/math.png',
+    image: '/images/math.png',
     github: 'https://github.com/Sxcelo777/math-snake',
     demo: 'https://Sxcelo777.github.io/math-snake/',
     featured: true,
